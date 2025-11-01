@@ -3,6 +3,7 @@ import './Head.css'
 import Eyes from './eyes/Eyes.jsx'
 import Nose from './Nose/Nose.jsx'
 import Moustache from './Moustache/Moustache.jsx'
+import Mouth from './Mouth/Mouth.jsx'
 
 export default function Head() {
     return (
@@ -12,8 +13,11 @@ export default function Head() {
                     <Eyes />
                     <Nose />
                 </div>
-                <div className="bottom">
+                <div className="middle">
                     <Moustache />
+                </div>
+                <div className="bottom">
+                    <Mouth />
                 </div>
             </div>
         </>
