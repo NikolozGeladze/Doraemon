@@ -2,6 +2,7 @@ import React from 'react'
 import './Head.css'
 import Eyes from './eyes/Eyes.jsx'
 import Nose from './Nose/Nose.jsx'
+import Moustache from './Moustache/Moustache.jsx'
 
 export default function Head() {
     return (
@@ -12,7 +13,7 @@ export default function Head() {
                     <Nose />
                 </div>
                 <div className="bottom">
-                    
+                    <Moustache />
                 </div>
             </div>
         </>

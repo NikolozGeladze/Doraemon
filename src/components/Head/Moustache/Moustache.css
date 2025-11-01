@@ -1,0 +1,43 @@
+.moustache-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moustache {
+    width: 100px;
+    height: 3px;
+    border-top: 3px solid var(--black);
+    position: relative;
+}
+
+.moustache-left {
+    transform: translateX(-75px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 50px;
+    max-width: 100px;
+    height: fit-content;
+}
+
+.moustache-right {
+    transform: translateX(75px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 50px;
+}
+
+.m_20deg {
+    transform: rotate(20deg);
+}
+
+.m_0deg {
+    transform: rotate(0deg);
+}
+
+.m_-20deg {
+    transform: rotate(-20deg);
+}
