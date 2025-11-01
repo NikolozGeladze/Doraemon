@@ -1,0 +1,13 @@
+:root {
+  --skin: #1E90FF;
+  --white: #FFFFFF;
+  --black: #000000;
+  --red: #FD0100;
+  --collar-tag: #F0BF36;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
