@@ -1,0 +1,63 @@
+.collar {
+    width: 240px;
+    position: relative;
+    transform: translateY(-20px);
+}
+
+.collar-band {
+    position: relative;
+    width: 240px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: var(--red);
+    border: 4px solid black;
+}
+
+.collar-cutout {
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    width: 230px;
+    height: 50px;
+    transform: translateX(-50%);
+    border-radius: 100%;
+    background-color: var(--white);
+    z-index: 1;
+}
+
+.collar-bell {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background-color: var(--collar-tag);
+    border: 3px solid black;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bell-middle {
+    width: 20px;
+    height: 20px;
+    border: 3px solid var(--black);
+    background-color: var(--black);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.bell-middle::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5px;
+    height: 35px;
+    border-top: 3px solid var(--black);
+    background-color: var(--black);
+}

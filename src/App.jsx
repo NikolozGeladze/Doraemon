@@ -1,4 +1,5 @@
 import './App.css'
+import Body from './components/Body/Body'
 import Head from './components/Head/Head'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <div className="container">
         <Head />
+        <Body />
       </div>
     </>
   )
