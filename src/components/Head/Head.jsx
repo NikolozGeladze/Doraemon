@@ -1,6 +1,6 @@
 import React from 'react'
 import './Head.css'
-import Eyes from './eyes/Eyes.jsx'
+import Eyes from './Eyes/Eyes.jsx'
 import Nose from './Nose/Nose.jsx'
 import Moustache from './Moustache/Moustache.jsx'
 import Mouth from './Mouth/Mouth.jsx'

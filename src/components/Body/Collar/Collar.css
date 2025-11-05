@@ -1,27 +1,21 @@
-.collar {
-    width: 240px;
-    position: relative;
-    transform: translateY(-20px);
-}
-
 .collar-band {
     position: relative;
-    width: 240px;
+    width: 320px;
     height: 60px;
     border-radius: 100%;
     background-color: var(--red);
-    border: 4px solid black;
+    border: 3px solid black;
 }
 
 .collar-cutout {
     position: absolute;
-    bottom: -1px;
+    top: 12px;
     left: 50%;
-    width: 230px;
+    width: 310px;
     height: 50px;
     transform: translateX(-50%);
     border-radius: 100%;
-    background-color: var(--white);
+    background-color: var(--skin);
     z-index: 1;
 }
 
@@ -35,10 +29,11 @@
     border-radius: 50%;
     background-color: var(--collar-tag);
     border: 3px solid black;
-    z-index: 2;
+    z-index: 10000;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 5;
 }
 
 .bell-middle {

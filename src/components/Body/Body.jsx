@@ -1,11 +1,16 @@
 import React from 'react'
 import Collar from './Collar/Collar'
+import './Body.css'
+import Belly from './Belly/Belly'
 
 export default function Body() {
     return (
         <>
             <div className="body">
-                <Collar />
+                <div className="collar-belly-container">
+                    <Collar />
+                    <Belly />
+                </div>
             </div>
         </>
     )
