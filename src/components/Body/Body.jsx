@@ -2,6 +2,7 @@ import React from 'react'
 import Collar from './Collar/Collar'
 import './Body.css'
 import Belly from './Belly/Belly'
+import Legs from './Legs/Legs'
 
 export default function Body() {
     return (
@@ -11,6 +12,7 @@ export default function Body() {
                     <Collar />
                     <Belly />
                 </div>
+                <Legs />
             </div>
         </>
     )

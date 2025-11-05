@@ -3,7 +3,8 @@
     height: 370px;
     background-color: var(--skin);
     border: 3px solid var(--black);
-    border-radius: 110px;
+    border-bottom: none;
+    border-radius: 110px 110px 0px 0px;
     position: relative;
     display: flex;
     justify-content: flex-start;

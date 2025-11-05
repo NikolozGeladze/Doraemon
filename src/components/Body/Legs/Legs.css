@@ -1,0 +1,31 @@
+.legs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 7px;
+    z-index: 2;
+}
+
+.leg {
+    width: 150px;
+    height: 100px;
+    background-color: var(--skin);
+    border: 3px solid var(--black);
+    border-top: none;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+.foot {
+    width: 180px !important;
+    height: 60px;
+    background-color: var(--white);
+    border: 3px solid var(--black);
+    border-radius: 100px;
+    bottom: -10px;
+    position: absolute;
+}
